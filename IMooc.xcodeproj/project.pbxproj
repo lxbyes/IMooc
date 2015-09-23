@@ -15,6 +15,10 @@
 		0E354C451BB257C500F4F9D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E354C431BB257C500F4F9D7 /* LaunchScreen.storyboard */; };
 		0E354C501BB257C500F4F9D7 /* IMoocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C4F1BB257C500F4F9D7 /* IMoocTests.m */; };
 		0E354C5B1BB257C500F4F9D7 /* IMoocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C5A1BB257C500F4F9D7 /* IMoocUITests.m */; };
+		0E354C811BB25B6E00F4F9D7 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C7C1BB25B6E00F4F9D7 /* RECommonFunctions.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C821BB25B6E00F4F9D7 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C7E1BB25B6E00F4F9D7 /* RESideMenu.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C831BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C801BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C861BB25BC200F4F9D7 /* IMLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C851BB25BC200F4F9D7 /* IMLeftMenuViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		0E354C561BB257C500F4F9D7 /* IMoocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMoocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E354C5A1BB257C500F4F9D7 /* IMoocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMoocUITests.m; sourceTree = "<group>"; };
 		0E354C5C1BB257C500F4F9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E354C7B1BB25B6E00F4F9D7 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		0E354C7C1BB25B6E00F4F9D7 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		0E354C7D1BB25B6E00F4F9D7 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		0E354C7E1BB25B6E00F4F9D7 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		0E354C7F1BB25B6E00F4F9D7 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		0E354C801BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		0E354C841BB25BC200F4F9D7 /* IMLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLeftMenuViewController.h; sourceTree = "<group>"; };
+		0E354C851BB25BC200F4F9D7 /* IMLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLeftMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		0E354C291BB257C500F4F9D7 = {
 			isa = PBXGroup;
 			children = (
+				0E354C7A1BB25B6E00F4F9D7 /* RESideMenu */,
 				0E354C341BB257C500F4F9D7 /* IMooc */,
 				0E354C4E1BB257C500F4F9D7 /* IMoocTests */,
 				0E354C591BB257C500F4F9D7 /* IMoocUITests */,
@@ -168,8 +181,23 @@
 			children = (
 				0E354C3B1BB257C500F4F9D7 /* IMRootViewController.h */,
 				0E354C3C1BB257C500F4F9D7 /* IMRootViewController.m */,
+				0E354C841BB25BC200F4F9D7 /* IMLeftMenuViewController.h */,
+				0E354C851BB25BC200F4F9D7 /* IMLeftMenuViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0E354C7A1BB25B6E00F4F9D7 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0E354C7B1BB25B6E00F4F9D7 /* RECommonFunctions.h */,
+				0E354C7C1BB25B6E00F4F9D7 /* RECommonFunctions.m */,
+				0E354C7D1BB25B6E00F4F9D7 /* RESideMenu.h */,
+				0E354C7E1BB25B6E00F4F9D7 /* RESideMenu.m */,
+				0E354C7F1BB25B6E00F4F9D7 /* UIViewController+RESideMenu.h */,
+				0E354C801BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +333,10 @@
 				0E354C3D1BB257C500F4F9D7 /* IMRootViewController.m in Sources */,
 				0E354C3A1BB257C500F4F9D7 /* AppDelegate.m in Sources */,
 				0E354C371BB257C500F4F9D7 /* main.m in Sources */,
+				0E354C821BB25B6E00F4F9D7 /* RESideMenu.m in Sources */,
+				0E354C811BB25B6E00F4F9D7 /* RECommonFunctions.m in Sources */,
+				0E354C831BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m in Sources */,
+				0E354C861BB25BC200F4F9D7 /* IMLeftMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

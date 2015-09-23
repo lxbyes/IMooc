@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IMLeftMenuViewController.h
 //  IMooc
 //
 //  Created by 赖显波 on 9/23/15.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RESideMenu.h"
 
-@interface IMRootViewController : RESideMenu
+@interface IMLeftMenuViewController : UIViewController
 
 @end
-
