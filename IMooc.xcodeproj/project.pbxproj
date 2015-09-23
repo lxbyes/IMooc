@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E354C371BB257C500F4F9D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C361BB257C500F4F9D7 /* main.m */; };
+		0E354C3A1BB257C500F4F9D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C391BB257C500F4F9D7 /* AppDelegate.m */; };
+		0E354C3D1BB257C500F4F9D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C3C1BB257C500F4F9D7 /* ViewController.m */; };
+		0E354C401BB257C500F4F9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E354C3E1BB257C500F4F9D7 /* Main.storyboard */; };
+		0E354C421BB257C500F4F9D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E354C411BB257C500F4F9D7 /* Assets.xcassets */; };
+		0E354C451BB257C500F4F9D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E354C431BB257C500F4F9D7 /* LaunchScreen.storyboard */; };
+		0E354C501BB257C500F4F9D7 /* IMoocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C4F1BB257C500F4F9D7 /* IMoocTests.m */; };
+		0E354C5B1BB257C500F4F9D7 /* IMoocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C5A1BB257C500F4F9D7 /* IMoocUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E354C4C1BB257C500F4F9D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E354C2A1BB257C500F4F9D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E354C311BB257C500F4F9D7;
+			remoteInfo = IMooc;
+		};
+		0E354C571BB257C500F4F9D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E354C2A1BB257C500F4F9D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E354C311BB257C500F4F9D7;
+			remoteInfo = IMooc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E354C321BB257C500F4F9D7 /* IMooc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMooc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E354C361BB257C500F4F9D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E354C381BB257C500F4F9D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E354C391BB257C500F4F9D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E354C3B1BB257C500F4F9D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E354C3C1BB257C500F4F9D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E354C3F1BB257C500F4F9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E354C411BB257C500F4F9D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E354C441BB257C500F4F9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E354C461BB257C500F4F9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E354C4B1BB257C500F4F9D7 /* IMoocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMoocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E354C4F1BB257C500F4F9D7 /* IMoocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMoocTests.m; sourceTree = "<group>"; };
+		0E354C511BB257C500F4F9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E354C561BB257C500F4F9D7 /* IMoocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMoocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E354C5A1BB257C500F4F9D7 /* IMoocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMoocUITests.m; sourceTree = "<group>"; };
+		0E354C5C1BB257C500F4F9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E354C2F1BB257C500F4F9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E354C481BB257C500F4F9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E354C531BB257C500F4F9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E354C291BB257C500F4F9D7 = {
+			isa = PBXGroup;
+			children = (
+				0E354C341BB257C500F4F9D7 /* IMooc */,
+				0E354C4E1BB257C500F4F9D7 /* IMoocTests */,
+				0E354C591BB257C500F4F9D7 /* IMoocUITests */,
+				0E354C331BB257C500F4F9D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E354C331BB257C500F4F9D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E354C321BB257C500F4F9D7 /* IMooc.app */,
+				0E354C4B1BB257C500F4F9D7 /* IMoocTests.xctest */,
+				0E354C561BB257C500F4F9D7 /* IMoocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E354C341BB257C500F4F9D7 /* IMooc */ = {
+			isa = PBXGroup;
+			children = (
+				0E354C381BB257C500F4F9D7 /* AppDelegate.h */,
+				0E354C391BB257C500F4F9D7 /* AppDelegate.m */,
+				0E354C3B1BB257C500F4F9D7 /* ViewController.h */,
+				0E354C3C1BB257C500F4F9D7 /* ViewController.m */,
+				0E354C3E1BB257C500F4F9D7 /* Main.storyboard */,
+				0E354C411BB257C500F4F9D7 /* Assets.xcassets */,
+				0E354C431BB257C500F4F9D7 /* LaunchScreen.storyboard */,
+				0E354C461BB257C500F4F9D7 /* Info.plist */,
+				0E354C351BB257C500F4F9D7 /* Supporting Files */,
+			);
+			path = IMooc;
+			sourceTree = "<group>";
+		};
+		0E354C351BB257C500F4F9D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E354C361BB257C500F4F9D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E354C4E1BB257C500F4F9D7 /* IMoocTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E354C4F1BB257C500F4F9D7 /* IMoocTests.m */,
+				0E354C511BB257C500F4F9D7 /* Info.plist */,
+			);
+			path = IMoocTests;
+			sourceTree = "<group>";
+		};
+		0E354C591BB257C500F4F9D7 /* IMoocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E354C5A1BB257C500F4F9D7 /* IMoocUITests.m */,
+				0E354C5C1BB257C500F4F9D7 /* Info.plist */,
+			);
+			path = IMoocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E354C311BB257C500F4F9D7 /* IMooc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E354C5F1BB257C500F4F9D7 /* Build configuration list for PBXNativeTarget "IMooc" */;
+			buildPhases = (
+				0E354C2E1BB257C500F4F9D7 /* Sources */,
+				0E354C2F1BB257C500F4F9D7 /* Frameworks */,
+				0E354C301BB257C500F4F9D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMooc;
+			productName = IMooc;
+			productReference = 0E354C321BB257C500F4F9D7 /* IMooc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E354C4A1BB257C500F4F9D7 /* IMoocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E354C621BB257C500F4F9D7 /* Build configuration list for PBXNativeTarget "IMoocTests" */;
+			buildPhases = (
+				0E354C471BB257C500F4F9D7 /* Sources */,
+				0E354C481BB257C500F4F9D7 /* Frameworks */,
+				0E354C491BB257C500F4F9D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E354C4D1BB257C500F4F9D7 /* PBXTargetDependency */,
+			);
+			name = IMoocTests;
+			productName = IMoocTests;
+			productReference = 0E354C4B1BB257C500F4F9D7 /* IMoocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E354C551BB257C500F4F9D7 /* IMoocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E354C651BB257C500F4F9D7 /* Build configuration list for PBXNativeTarget "IMoocUITests" */;
+			buildPhases = (
+				0E354C521BB257C500F4F9D7 /* Sources */,
+				0E354C531BB257C500F4F9D7 /* Frameworks */,
+				0E354C541BB257C500F4F9D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E354C581BB257C500F4F9D7 /* PBXTargetDependency */,
+			);
+			name = IMoocUITests;
+			productName = IMoocUITests;
+			productReference = 0E354C561BB257C500F4F9D7 /* IMoocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E354C2A1BB257C500F4F9D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Leckie;
+				TargetAttributes = {
+					0E354C311BB257C500F4F9D7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E354C4A1BB257C500F4F9D7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0E354C311BB257C500F4F9D7;
+					};
+					0E354C551BB257C500F4F9D7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0E354C311BB257C500F4F9D7;
+					};
+				};
+			};
+			buildConfigurationList = 0E354C2D1BB257C500F4F9D7 /* Build configuration list for PBXProject "IMooc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E354C291BB257C500F4F9D7;
+			productRefGroup = 0E354C331BB257C500F4F9D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E354C311BB257C500F4F9D7 /* IMooc */,
+				0E354C4A1BB257C500F4F9D7 /* IMoocTests */,
+				0E354C551BB257C500F4F9D7 /* IMoocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E354C301BB257C500F4F9D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E354C451BB257C500F4F9D7 /* LaunchScreen.storyboard in Resources */,
+				0E354C421BB257C500F4F9D7 /* Assets.xcassets in Resources */,
+				0E354C401BB257C500F4F9D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E354C491BB257C500F4F9D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E354C541BB257C500F4F9D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E354C2E1BB257C500F4F9D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E354C3D1BB257C500F4F9D7 /* ViewController.m in Sources */,
+				0E354C3A1BB257C500F4F9D7 /* AppDelegate.m in Sources */,
+				0E354C371BB257C500F4F9D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E354C471BB257C500F4F9D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E354C501BB257C500F4F9D7 /* IMoocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E354C521BB257C500F4F9D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E354C5B1BB257C500F4F9D7 /* IMoocUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E354C4D1BB257C500F4F9D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E354C311BB257C500F4F9D7 /* IMooc */;
+			targetProxy = 0E354C4C1BB257C500F4F9D7 /* PBXContainerItemProxy */;
+		};
+		0E354C581BB257C500F4F9D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E354C311BB257C500F4F9D7 /* IMooc */;
+			targetProxy = 0E354C571BB257C500F4F9D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E354C3E1BB257C500F4F9D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E354C3F1BB257C500F4F9D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E354C431BB257C500F4F9D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E354C441BB257C500F4F9D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E354C5D1BB257C500F4F9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E354C5E1BB257C500F4F9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E354C601BB257C500F4F9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMooc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leckie.IMooc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E354C611BB257C500F4F9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMooc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leckie.IMooc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E354C631BB257C500F4F9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMoocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leckie.IMoocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMooc.app/IMooc";
+			};
+			name = Debug;
+		};
+		0E354C641BB257C500F4F9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMoocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leckie.IMoocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMooc.app/IMooc";
+			};
+			name = Release;
+		};
+		0E354C661BB257C500F4F9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IMoocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leckie.IMoocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IMooc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0E354C671BB257C500F4F9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IMoocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.leckie.IMoocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IMooc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E354C2D1BB257C500F4F9D7 /* Build configuration list for PBXProject "IMooc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E354C5D1BB257C500F4F9D7 /* Debug */,
+				0E354C5E1BB257C500F4F9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E354C5F1BB257C500F4F9D7 /* Build configuration list for PBXNativeTarget "IMooc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E354C601BB257C500F4F9D7 /* Debug */,
+				0E354C611BB257C500F4F9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E354C621BB257C500F4F9D7 /* Build configuration list for PBXNativeTarget "IMoocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E354C631BB257C500F4F9D7 /* Debug */,
+				0E354C641BB257C500F4F9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E354C651BB257C500F4F9D7 /* Build configuration list for PBXNativeTarget "IMoocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E354C661BB257C500F4F9D7 /* Debug */,
+				0E354C671BB257C500F4F9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E354C2A1BB257C500F4F9D7 /* Project object */;
+}
