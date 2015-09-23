@@ -20,6 +20,7 @@
     
     self.scaleMenuView = NO;
     self.scaleContentView = NO;
+    self.contentViewInPortraitOffsetCenterX = 60;
 }
 
 - (void)viewDidLoad {

@@ -26,6 +26,7 @@
 		0E354C971BB2834D00F4F9D7 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C911BB2834D00F4F9D7 /* UIFont+FontAwesome.m */; settings = {ASSET_TAGS = (); }; };
 		0E354C981BB2834D00F4F9D7 /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C931BB2834D00F4F9D7 /* UIImage+FontAwesome.m */; settings = {ASSET_TAGS = (); }; };
 		0E354C9B1BB2867F00F4F9D7 /* IMCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C9A1BB2867F00F4F9D7 /* IMCourseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C9E1BB2AFE300F4F9D7 /* MenuHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C9D1BB2AFE300F4F9D7 /* MenuHeaderCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		0E354C931BB2834D00F4F9D7 /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
 		0E354C991BB2867F00F4F9D7 /* IMCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCourseViewController.h; sourceTree = "<group>"; };
 		0E354C9A1BB2867F00F4F9D7 /* IMCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMCourseViewController.m; sourceTree = "<group>"; };
+		0E354C9C1BB2AFE300F4F9D7 /* MenuHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuHeaderCell.h; sourceTree = "<group>"; };
+		0E354C9D1BB2AFE300F4F9D7 /* MenuHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuHeaderCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 		0E354C681BB2585D00F4F9D7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0E354C9C1BB2AFE300F4F9D7 /* MenuHeaderCell.h */,
+				0E354C9D1BB2AFE300F4F9D7 /* MenuHeaderCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -381,6 +386,7 @@
 				0E354C821BB25B6E00F4F9D7 /* RESideMenu.m in Sources */,
 				0E354C9B1BB2867F00F4F9D7 /* IMCourseViewController.m in Sources */,
 				0E354C891BB25C1B00F4F9D7 /* IMContentViewController.m in Sources */,
+				0E354C9E1BB2AFE300F4F9D7 /* MenuHeaderCell.m in Sources */,
 				0E354C981BB2834D00F4F9D7 /* UIImage+FontAwesome.m in Sources */,
 				0E354C811BB25B6E00F4F9D7 /* RECommonFunctions.m in Sources */,
 				0E354C831BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m in Sources */,
