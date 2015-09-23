@@ -19,6 +19,7 @@
 		0E354C821BB25B6E00F4F9D7 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C7E1BB25B6E00F4F9D7 /* RESideMenu.m */; settings = {ASSET_TAGS = (); }; };
 		0E354C831BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C801BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m */; settings = {ASSET_TAGS = (); }; };
 		0E354C861BB25BC200F4F9D7 /* IMLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C851BB25BC200F4F9D7 /* IMLeftMenuViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C891BB25C1B00F4F9D7 /* IMContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C881BB25C1B00F4F9D7 /* IMContentViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		0E354C801BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		0E354C841BB25BC200F4F9D7 /* IMLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLeftMenuViewController.h; sourceTree = "<group>"; };
 		0E354C851BB25BC200F4F9D7 /* IMLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLeftMenuViewController.m; sourceTree = "<group>"; };
+		0E354C871BB25C1B00F4F9D7 /* IMContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMContentViewController.h; sourceTree = "<group>"; };
+		0E354C881BB25C1B00F4F9D7 /* IMContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 				0E354C3C1BB257C500F4F9D7 /* IMRootViewController.m */,
 				0E354C841BB25BC200F4F9D7 /* IMLeftMenuViewController.h */,
 				0E354C851BB25BC200F4F9D7 /* IMLeftMenuViewController.m */,
+				0E354C871BB25C1B00F4F9D7 /* IMContentViewController.h */,
+				0E354C881BB25C1B00F4F9D7 /* IMContentViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 				0E354C3A1BB257C500F4F9D7 /* AppDelegate.m in Sources */,
 				0E354C371BB257C500F4F9D7 /* main.m in Sources */,
 				0E354C821BB25B6E00F4F9D7 /* RESideMenu.m in Sources */,
+				0E354C891BB25C1B00F4F9D7 /* IMContentViewController.m in Sources */,
 				0E354C811BB25B6E00F4F9D7 /* RECommonFunctions.m in Sources */,
 				0E354C831BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m in Sources */,
 				0E354C861BB25BC200F4F9D7 /* IMLeftMenuViewController.m in Sources */,

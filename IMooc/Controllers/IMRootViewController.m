@@ -14,14 +14,16 @@
 
 @implementation IMRootViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (void)awakeFromNib {
+    self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"contentViewController"];
+    self.leftMenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"leftMenuViewController"];
+    
+    self.scaleMenuView = NO;
+    self.scaleContentView = NO;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidLoad {
+    [super viewDidLoad];
 }
 
 @end
