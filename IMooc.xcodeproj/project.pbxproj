@@ -20,6 +20,12 @@
 		0E354C831BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C801BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m */; settings = {ASSET_TAGS = (); }; };
 		0E354C861BB25BC200F4F9D7 /* IMLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C851BB25BC200F4F9D7 /* IMLeftMenuViewController.m */; settings = {ASSET_TAGS = (); }; };
 		0E354C891BB25C1B00F4F9D7 /* IMContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C881BB25C1B00F4F9D7 /* IMContentViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C941BB2834D00F4F9D7 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C8C1BB2834D00F4F9D7 /* FAImageView.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C951BB2834D00F4F9D7 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E354C8D1BB2834D00F4F9D7 /* FontAwesome.ttf */; settings = {ASSET_TAGS = (); }; };
+		0E354C961BB2834D00F4F9D7 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C8F1BB2834D00F4F9D7 /* NSString+FontAwesome.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C971BB2834D00F4F9D7 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C911BB2834D00F4F9D7 /* UIFont+FontAwesome.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C981BB2834D00F4F9D7 /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C931BB2834D00F4F9D7 /* UIImage+FontAwesome.m */; settings = {ASSET_TAGS = (); }; };
+		0E354C9B1BB2867F00F4F9D7 /* IMCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E354C9A1BB2867F00F4F9D7 /* IMCourseViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +72,17 @@
 		0E354C851BB25BC200F4F9D7 /* IMLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLeftMenuViewController.m; sourceTree = "<group>"; };
 		0E354C871BB25C1B00F4F9D7 /* IMContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMContentViewController.h; sourceTree = "<group>"; };
 		0E354C881BB25C1B00F4F9D7 /* IMContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMContentViewController.m; sourceTree = "<group>"; };
+		0E354C8B1BB2834D00F4F9D7 /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		0E354C8C1BB2834D00F4F9D7 /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		0E354C8D1BB2834D00F4F9D7 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		0E354C8E1BB2834D00F4F9D7 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		0E354C8F1BB2834D00F4F9D7 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		0E354C901BB2834D00F4F9D7 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		0E354C911BB2834D00F4F9D7 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		0E354C921BB2834D00F4F9D7 /* UIImage+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FontAwesome.h"; sourceTree = "<group>"; };
+		0E354C931BB2834D00F4F9D7 /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
+		0E354C991BB2867F00F4F9D7 /* IMCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCourseViewController.h; sourceTree = "<group>"; };
+		0E354C9A1BB2867F00F4F9D7 /* IMCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMCourseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +113,7 @@
 		0E354C291BB257C500F4F9D7 = {
 			isa = PBXGroup;
 			children = (
+				0E354C8A1BB2834D00F4F9D7 /* FontAwesome */,
 				0E354C7A1BB25B6E00F4F9D7 /* RESideMenu */,
 				0E354C341BB257C500F4F9D7 /* IMooc */,
 				0E354C4E1BB257C500F4F9D7 /* IMoocTests */,
@@ -188,6 +206,8 @@
 				0E354C851BB25BC200F4F9D7 /* IMLeftMenuViewController.m */,
 				0E354C871BB25C1B00F4F9D7 /* IMContentViewController.h */,
 				0E354C881BB25C1B00F4F9D7 /* IMContentViewController.m */,
+				0E354C991BB2867F00F4F9D7 /* IMCourseViewController.h */,
+				0E354C9A1BB2867F00F4F9D7 /* IMCourseViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -203,6 +223,22 @@
 				0E354C801BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m */,
 			);
 			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		0E354C8A1BB2834D00F4F9D7 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				0E354C8B1BB2834D00F4F9D7 /* FAImageView.h */,
+				0E354C8C1BB2834D00F4F9D7 /* FAImageView.m */,
+				0E354C8D1BB2834D00F4F9D7 /* FontAwesome.ttf */,
+				0E354C8E1BB2834D00F4F9D7 /* NSString+FontAwesome.h */,
+				0E354C8F1BB2834D00F4F9D7 /* NSString+FontAwesome.m */,
+				0E354C901BB2834D00F4F9D7 /* UIFont+FontAwesome.h */,
+				0E354C911BB2834D00F4F9D7 /* UIFont+FontAwesome.m */,
+				0E354C921BB2834D00F4F9D7 /* UIImage+FontAwesome.h */,
+				0E354C931BB2834D00F4F9D7 /* UIImage+FontAwesome.m */,
+			);
+			path = FontAwesome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +347,7 @@
 				0E354C451BB257C500F4F9D7 /* LaunchScreen.storyboard in Resources */,
 				0E354C421BB257C500F4F9D7 /* Assets.xcassets in Resources */,
 				0E354C401BB257C500F4F9D7 /* Main.storyboard in Resources */,
+				0E354C951BB2834D00F4F9D7 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,11 +372,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E354C961BB2834D00F4F9D7 /* NSString+FontAwesome.m in Sources */,
+				0E354C941BB2834D00F4F9D7 /* FAImageView.m in Sources */,
 				0E354C3D1BB257C500F4F9D7 /* IMRootViewController.m in Sources */,
 				0E354C3A1BB257C500F4F9D7 /* AppDelegate.m in Sources */,
+				0E354C971BB2834D00F4F9D7 /* UIFont+FontAwesome.m in Sources */,
 				0E354C371BB257C500F4F9D7 /* main.m in Sources */,
 				0E354C821BB25B6E00F4F9D7 /* RESideMenu.m in Sources */,
+				0E354C9B1BB2867F00F4F9D7 /* IMCourseViewController.m in Sources */,
 				0E354C891BB25C1B00F4F9D7 /* IMContentViewController.m in Sources */,
+				0E354C981BB2834D00F4F9D7 /* UIImage+FontAwesome.m in Sources */,
 				0E354C811BB25B6E00F4F9D7 /* RECommonFunctions.m in Sources */,
 				0E354C831BB25B6E00F4F9D7 /* UIViewController+RESideMenu.m in Sources */,
 				0E354C861BB25BC200F4F9D7 /* IMLeftMenuViewController.m in Sources */,

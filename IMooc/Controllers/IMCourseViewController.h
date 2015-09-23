@@ -1,5 +1,5 @@
 //
-//  IMContentViewController.h
+//  IMCourseViewController.h
 //  IMooc
 //
 //  Created by 赖显波 on 9/23/15.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIViewController+RESideMenu.h"
 
-@interface IMContentViewController : UIViewController
+@interface IMCourseViewController : UIViewController
 
 @end
